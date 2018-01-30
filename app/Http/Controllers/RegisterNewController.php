@@ -33,7 +33,7 @@ class RegisterNewController extends Controller
 
         }
         catch(\Exception $e){
-            return redirect('/')->with('error','Error logging in. Please try again');
+            return redirect('/')->with('error',$e->getMessage());
         }
 
         $user = user::where('email',$socialUser->getEmail())->first();

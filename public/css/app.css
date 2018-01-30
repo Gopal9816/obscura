@@ -16,7 +16,7 @@ html {
 
 body {
   margin: 0;
-}
+  }
 
 article,
 aside,
@@ -1789,8 +1789,13 @@ a.bg-danger:focus {
 
 .page-header {
   padding-bottom: 10px;
+  padding-top: 10px;
   margin: 44px 0 22px;
-  border-bottom: 1px solid #eeeeee;
+  color:white; 
+  background-color: rgba(0,0,0,0.9);
+  box-shadow:0 3px 28px 0 rgb(0,0,0), 0 0px 55px 0 rgba(0, 0, 0, 0.21);
+  
+  
 }
 
 ul,
@@ -6829,11 +6834,12 @@ button.list-group-item-danger.active:focus {
 
 .panel {
   margin-bottom: 22px;
-  background-color: #fff;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  background-color: rgba(0,0,0,0.9);
+  color:white;
+  box-shadow: 0 3px 28px 0 rgb(0,0,0), 0 0px 55px 0 rgba(0, 0, 0, 0.21);
+ 
+  -webkit-box-shadow:  0 3px 28px 0 rgb(0,0,0), 0 0px 55px 0 rgba(0, 0, 0, 0.21);
+ 
 }
 
 .panel-body {
@@ -6852,9 +6858,7 @@ button.list-group-item-danger.active:focus {
 
 .panel-heading {
   padding: 10px 15px;
-  border-bottom: 1px solid transparent;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  
 }
 
 .panel-heading > .dropdown .dropdown-toggle {
@@ -6865,7 +6869,7 @@ button.list-group-item-danger.active:focus {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
-  color: inherit;
+  color: white;
 }
 
 .panel-title > a,
@@ -6873,7 +6877,7 @@ button.list-group-item-danger.active:focus {
 .panel-title > .small,
 .panel-title > small > a,
 .panel-title > .small > a {
-  color: inherit;
+  color: white;
 }
 
 .panel-footer {
@@ -7116,8 +7120,8 @@ button.list-group-item-danger.active:focus {
 }
 
 .panel-default > .panel-heading {
-  color: #333333;
-  background-color: #fff;
+  color: white;
+  
   border-color: #d3e0e9;
 }
 

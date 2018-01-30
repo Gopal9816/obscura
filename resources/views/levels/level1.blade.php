@@ -5,6 +5,7 @@
 <!--<div class="page-header text-center">
     <h1>Welcome {{ $user->name }}</h1>
 </div> -->
+<link href="{{ asset('css/lev1.css') }}" rel="stylesheet">
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
         <h2 id="rhyme" class="text-center">

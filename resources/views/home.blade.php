@@ -3,12 +3,12 @@
 @section('content')
 <div class="container">
     <div class="page-header text-center">
-        <h1>Welcome {{ $user->name }}</h1>
+        <h1 >Welcome {{ $user->name }}</h1>
     </div>
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
+                <div class="panel-heading">DASHBOARD</div>
 
                 <div class="panel-body">
                     @if (session('status'))
@@ -26,21 +26,24 @@
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
                 <div class="panel-heading clearfix">
-                    <h3 class="panel-title" style="padding-top: 7.5px;">Details</h4>
+                    <h4 class="panel-title pull-left" style="padding-top: 7.5px;">DETAILS</h4>
                     <div class="btn-group pull-right">
-                        <a class="btn btn-success" href="/edit">Edit</a>
+                        <a class="btn btn-success editb" href="/edit">Edit</a>
                     </div>
                 </div>
                 <div class="panel-body">
                     <ul>
-                        <li>College : {{ $user->college }}</li>
-                        <li>Level : {{ $user->level }} </li>
-                        <li>E-mail : {{ $user->email }}</li>
-                        <li>Mobile : {{ $user->phnumber }}</li>
+                        <li>COLLEGE&nbsp&nbsp&nbsp{{ $user->college }}</li>
+                        <li>LEVEL&nbsp&nbsp&nbsp{{ $user->level }} </li>
+                        <li>EMAIL&nbsp&nbsp&nbsp{{ $user->email }}</li>
+                        <li>MOBILE&nbsp&nbsp&nbsp{{ $user->phnumber }}</li>
+
                     </ul>
                 </div>
+                <div id="overlay animated fadeInUp"></div>
+
             </div>
         </div>
     </div>
-</div>
+    </div>
 @endsection
