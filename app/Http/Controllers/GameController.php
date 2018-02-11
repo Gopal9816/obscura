@@ -21,8 +21,8 @@ class GameController extends Controller
         $levelsList = array(
             0 => 'levels.blocked',
             1 => 'levels.level1',
-            2 => 'levels.smith',
-            3 => 'levels.sisgy',
+            2 => 'levels.sisgy',
+            3 => 'levels.smith',
             4 => 'levels.kudu',
             5 => 'levels.jabberwocky',
             6 => 'levels.level2',
@@ -54,8 +54,8 @@ class GameController extends Controller
         $answer = $request->input('answer');
         $answerList = array(
             1 => 'wachowski',
-            2 => 'smithandbeck',
-            3 => 'syzygy',
+            2 => 'syzygy',
+            3 => 'smithandbeck',
             4 => 'waltdisney',
             5 => 'tumtum',
             6 => 'caucusrace',
