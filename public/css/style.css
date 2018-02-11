@@ -275,6 +275,10 @@ a{
   margin:auto;
    box-shadow: 0 3px 28px 0 rgb(0,0,0), 0 0px 55px 0 rgba(0, 0, 0, 0.21);
 }
+.dotlogo{
+height:20vh; 
+margin:auto;
+}
 
 @media (max-width: 780px) {
     .page-header h1{
@@ -297,5 +301,11 @@ a{
 }
 audio{
   width:200px;
+}
+.dotlogo{
+   height:10vh;
+}
+h6{
+  font-size: 10px;
 }
 }

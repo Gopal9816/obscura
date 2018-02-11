@@ -3,7 +3,7 @@
 <link href="<?php echo e(asset('css/lev2.css')); ?>" rel="stylesheet">
 <div class="row  rym">
     <div class="col-md-6 col-md-offset-3" align="center">
-        <h2>We start fast and then we go Slow<br>And We All end a winner</h2>
+        <h2 style="font-family:'Amatic SC', cursive;">We start fast and then we go Slow<br>And We All end a winner</h2>
     </div>
 <div class="col-md-6 col-md-offset-3" align="center">
     <audio controls>
