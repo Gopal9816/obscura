@@ -1,3 +1,9 @@
 body{
 	background-image:url('../img/b1.jpg');
 }
+.rym{
+	margin-top:100px;
+	background-color: rgba(0,0,0,0.8);
+	padding: 20px;
+
+}

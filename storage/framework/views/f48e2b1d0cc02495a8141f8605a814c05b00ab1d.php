@@ -9,7 +9,7 @@
                 <a href="/login/facebook" style="color:white;"><button id="facebook" class=btn><i class="fa fa-facebook">  Facebook</i></button></a>
             </p>
             <?php else: ?>
-            <p>
+            <p style="color:white;">
                 The game begins soon!!
             </p>
             <?php endif; ?>

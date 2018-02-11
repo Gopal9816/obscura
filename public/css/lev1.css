@@ -15,6 +15,7 @@ body{
 .rym{
 	background-color: rgba(66, 26, 111,0.4);
 	color:white;
+	margin-top:100px;
 	
 	
 	 box-shadow: 0 3px 28px 0 rgb(0,0,0), 0 0px 55px 0 rgba(0, 0, 0, 0.21);
@@ -74,6 +75,9 @@ body{
 	}
 	.text-center{
 		font-size: 16px;
+	}
+	.rym{
+		margin-top: 70px;
 	}
 }
 @media (max-width: 360px) {

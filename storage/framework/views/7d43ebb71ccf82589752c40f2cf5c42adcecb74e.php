@@ -1,6 +1,7 @@
 <?php $__env->startSection('content'); ?>
+<link href="<?php echo e(asset('css/rep.css')); ?>" rel="stylesheet">
 <link href="<?php echo e(asset('css/lev2.css')); ?>" rel="stylesheet">
-<div class="row  lev2">
+<div class="row  rym">
 
 <div class="col-md-6 col-md-offset-3" align="center">
     <audio controls>
