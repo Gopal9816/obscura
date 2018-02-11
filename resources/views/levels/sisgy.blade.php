@@ -2,6 +2,7 @@
 
 @section('content')
 <link href="{{ asset('css/rep.css') }}" rel="stylesheet">
+<link href="{{ asset('css/lev4.css') }}" rel="stylesheet">
 <div class ="row rym animated fadeIn">
         <h1 id="rhyme-new" >OH DO!</h1>
         <h1 id="rhyme-new" >INDULGE an IDIOSYNCRASY</h1>

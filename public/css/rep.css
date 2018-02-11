@@ -2,12 +2,14 @@ body{
 	background-image:url('../img/dark.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	height:100vh;
 	
 }
 
-.rym-new{
-	font-family: 'Indie Flower', cursive;
+#rhyme-new{
+	font-family: 'alice', cursive;
+	font-size:30px;
 }
 
 
@@ -16,10 +18,10 @@ body{
 	color:white;
 	margin-left:200px;
 	margin-right: 200px;
-	
-	
-	 box-shadow: 0 3px 28px 0 rgb(0,0,0), 0 0px 55px 0 rgba(0, 0, 0, 0.21);
+	box-shadow: 0 3px 28px 0 rgb(0,0,0), 0 0px 55px 0 rgba(0, 0, 0, 0.21);
 	 text-align: center;
+	 margin-bottom: 20px;
+	 margin-top: 100px;
 }
 .animated{
 	animation-duration: 2s;
@@ -42,7 +44,12 @@ body{
 .rym{
 		margin-left: 5px;
 		margin-right:5px;
+		margin-top: 60px;
 	}
+
+#rhyme-new{
+	font-size: 15px;
+}
 }
 .new-sel::-moz-selection { /* Code for Firefox */
 	color: red;
