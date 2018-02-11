@@ -19,9 +19,13 @@ class GameController extends Controller
         $level = $user->level;
 
         $levelsList = array(
+            0 => 'levels.blocked',
             1 => 'levels.level1',
             2 => 'levels.level2',
-            3 => 'levels.teaser'
+            3 => 'levels.jabberwocky',
+            4 => 'levels.sisgy',
+            5 => 'levels.fall',
+            6 => 'levels.teaser',
         );
 
         $currentLevel = $levelsList[$level];
@@ -48,17 +52,20 @@ class GameController extends Controller
         $answerList = array(
             1 => 'wachowski',
             2 => 'dodo',
+            3 => 'tumtum',
+            4 => 'syzygy',
+            5 => 'alicepleasanceliddell',
         );
         $level = $user->level;
         $correctAns = $answerList[$level];
         if(stripos($answer,$correctAns) !== false){
             $user->level += 1;
             $num = User::where('level',$user->level)->count();
-            if($num == 4)
+            if($num <= 4)
                 $user->points += 500;
-            elseif($num == 9)
+            else if($num <= 9)
                 $user->points += 300;
-            elseif($num == 19)             
+            else if($num <= 19)             
                 $user->points += 150;
             else
                 $user->points += 75;

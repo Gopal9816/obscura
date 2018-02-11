@@ -5,13 +5,10 @@
 <div class ="row rym animated fadeIn">
     
     <h2 id="rhyme" class="text-center">
-        Tweedledee and Tweedledum<br>
-        Started their lives as misters <br>
-        Years past and a trilogy,<br>
-        Ended up as sisters.
+        Ithuvare riddle thannilla mairanmar -_-
         <br>
     </h2>
-    <img  src="../img/tw.png" style="z-index: 4;height:170px;">
+    <img src="../img/alice.jpeg" style="z-index: 4;height:30vh;">
     <br><br>
     <div class="col-md-6 col-md-offset-3" style="padding-bottom: 20px;">        
             {!! Form::open(['action' => 'GameController@answer', 'method' => 'POST']) !!}
@@ -23,4 +20,7 @@
         {!! Form::close() !!}
     </div>
 </div>
+
+
+
 @endsection

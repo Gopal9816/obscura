@@ -77,7 +77,14 @@ header:after {
 #rhyme{
   font-family: 'Dancing Script', cursive;
 }
+#rhyme a{
+  text-decoration: none;
+  color: white;
+}
 
+#rhyme-new{
+  font-family: 'Amatic SC', cursive;
+}
 
 /* Animations */
 
@@ -122,10 +129,15 @@ header:after {
 
 }
 body{
-background-image: url('../img/b1.jpg');
+  background-image: url('../img/b1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
+  background-image: url('../img/b1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+  color: #ffffff;
 }
 .navbar{
   background-color: rgba(0,0,0,0.9);
@@ -216,4 +228,16 @@ background-image: url('../img/b1.jpg');
 
 
   }
-  
+  #lefth{
+    transform: scale(-1,1);
+  }
+
+  #home{
+    margin:11px;
+}
+#other{
+    margin:11px;
+}
+.leaderboard{
+  background: rgba(0, 0, 0, 0.8);
+}

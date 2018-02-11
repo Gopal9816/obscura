@@ -3,15 +3,16 @@
 @section('content')
 <link href="{{ asset('css/rep.css') }}" rel="stylesheet">
 <div class ="row rym animated fadeIn">
-    
-    <h2 id="rhyme" class="text-center">
-        Tweedledee and Tweedledum<br>
-        Started their lives as misters <br>
-        Years past and a trilogy,<br>
-        Ended up as sisters.
-        <br>
-    </h2>
-    <img  src="../img/tw.png" style="z-index: 4;height:170px;">
+        <h1 id="rhyme-new" >OH DO!</h1>
+        <h1 id="rhyme-new" >INDULGE an IDIOSYNCRASY</h1>
+        <h1 id="rhyme-new" >make BULLETS of LEAD</h1>
+        <h1 id="rhyme-new" >Reconcile DOG to CAT</h1>
+        <h1 id="rhyme-new" >Lay KNIFE by FORK</h1>
+        <h1 id="rhyme-new" >CONVERSE CHEERFULLY</h1>
+        <h1 id="rhyme-new" >WEDNESDAY AFTERNOON</h1>
+        <h1 id="rhyme-new" >COOK the DINNER</h1>
+        <h1 id="rhyme-new" >SPREAD the BANQUET</h1>
+        <h1 id="rhyme-new" >DEMAND a CORMORANT</h1>
     <br><br>
     <div class="col-md-6 col-md-offset-3" style="padding-bottom: 20px;">        
             {!! Form::open(['action' => 'GameController@answer', 'method' => 'POST']) !!}
@@ -20,7 +21,8 @@
                     {{Form::text('answer','',['class' => 'form-control','placeholder' => 'Your Answer'])}}
                 </div>
             {{Form::submit('Submit',['class' => 'btn btn-success editb'])}}
-        {!! Form::close() !!}
+            {!! Form::close() !!}
     </div>
 </div>
+
 @endsection

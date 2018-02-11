@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "My Custom Font";
+    src: url("Hermit-light.otf") format("Opentype");
+}
+p { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+    font-size: 20px;
+}
+
+
+body {color:white;
+background-color: black;
+padding-left: 10%;
+padding-top: 15%;
+font-family: "My Custom Font", Verdana, Tahoma;
+}
+

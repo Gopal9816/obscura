@@ -64,11 +64,13 @@ class RegisterNewController extends Controller
         //
         $this->validate($request, [
             'phno' => 'required',
-            'college' => 'required',
         ]);
 
         $user = User::where('provider_id',$id)->first();
-        $user->college = $request->input('college');
+        if($request->input('college') == 'home')
+            $user->college = "CET";
+        else
+            $user->college = $request->input('collegename');
         $user->phnumber = $request->input('phno');
         $user->save();
         auth()->login($user);

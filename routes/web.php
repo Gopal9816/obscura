@@ -12,7 +12,7 @@
 */
 
 Route::get('/', 'PagesController@index')->name('login');
-
+Route::get('/leaderboard','PagesController@leaderboard');
 //Auth::routes();
 Route::post('/logout','Auth\LoginController@logout')->name('logout');
 Route::get('/home', 'HomeController@index')->name('home');
