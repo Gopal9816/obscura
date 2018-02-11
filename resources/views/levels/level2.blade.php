@@ -3,10 +3,12 @@
 <link href="{{ asset('css/rep.css') }}" rel="stylesheet">
 <link href="{{ asset('css/lev2.css') }}" rel="stylesheet">
 <div class="row  rym">
-
+    <div class="col-md-6 col-md-offset-3" align="center">
+        <h2>We start fast and then we go Slow<br>And We All end a winner</h2>
+    </div>
 <div class="col-md-6 col-md-offset-3" align="center">
     <audio controls>
-        <source src="{{ asset('audio/level2.wav') }}" type="audio/wav">
+        <source src="{{ asset('audio/Lavender.mp3') }}" type="audio/mpeg">
 
     </audio>
 <!--</div>
