@@ -14,7 +14,7 @@
             </p>
             @else
             <p style="color:white;">
-                The game begins soon!!
+                <a href="/game" style="font-family:dae"><h2>The game has begun</h2></a> 
             </p>
             @endguest
     </div>

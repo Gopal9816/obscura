@@ -6,8 +6,12 @@
 <div class ="row rym animated fadeIn">
     
     <h2 id="rhyme" class="text-center">
-        Ithuvare riddle thannilla mairanmar -_-
-        <br>
+        Drop by Drop I bleed a part of me I give away.
+        <br>Look closer and you'll see, with you I've been a long way.
+        <br>Trapped in Here to be immortalized what am i to say.
+        <br>Life is but a dream and You can gently Row Away.
+        <br>Or you can stay and find my name and join in,in my story.
+        <br>And we will Find.
     </h2>
     <img src="../img/alice.jpeg" style="z-index: 4;height:40vh;">
     <br><br>

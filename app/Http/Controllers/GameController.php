@@ -21,12 +21,12 @@ class GameController extends Controller
         $levelsList = array(
             0 => 'levels.blocked',
             1 => 'levels.level1',
-            2 => 'levels.level2',
-            3 => 'levels.jabberwocky',
-            4 => 'levels.sisgy',
-            5 => 'levels.fall',
-            6 => 'levels.kudu',
-            7 => 'levels.smith',
+            2 => 'levels.smith',
+            3 => 'levels.sisgy',
+            4 => 'levels.kudu',
+            5 => 'levels.jabberwocky',
+            6 => 'levels.level2',
+            7 => 'levels.fall',
             8 => 'levels.teaser',
 
         );
@@ -54,12 +54,12 @@ class GameController extends Controller
         $answer = $request->input('answer');
         $answerList = array(
             1 => 'wachowski',
-            2 => 'caucusrace',
-            3 => 'tumtum',
-            4 => 'syzygy',
-            5 => 'alicepleasanceliddell',
-            6 => 'waltdisney',
-            7 => 'smithandbeck',
+            2 => 'smithandbeck',
+            3 => 'syzygy',
+            4 => 'waltdisney',
+            5 => 'tumtum',
+            6 => 'caucusrace',
+            7 => 'alicepleasanceliddell',
         );
         $level = $user->level;
         $correctAns = $answerList[$level];
