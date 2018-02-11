@@ -22,4 +22,9 @@ class PagesController extends Controller
 
         return view('pages.leaderboard', array('homeusers' => $homeusers,'awayusers' => $awayusers));
     }
+
+    public function rules()
+    {
+        return view('pages.rules');
+    }
 }
