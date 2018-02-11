@@ -1,6 +1,8 @@
 <?php $__env->startSection('content'); ?>
 <div class="container-fluid">
     <div class="jumbotron text-center">
+        <a href="https://www.facebook.com/dotslashcet" target="_blank"><img src="../img/dslogo.png" class="img-responsive dotlogo"></a><br>
+            <h6 style="color:white; letter-spacing: 5px;">PRESENTS</h6>
             <h1 align="center" id="obtitle">Obscura</h1>
             <br>
             <?php if(auth()->guard()->guest()): ?>
