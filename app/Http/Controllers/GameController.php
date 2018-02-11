@@ -44,7 +44,7 @@ class GameController extends Controller
     }
 
     public function teaser(){
-        return view('levels.teaser');
+        return view('levels.wrong');
     }
 
     public function answer(Request $request)
@@ -78,7 +78,7 @@ class GameController extends Controller
             return redirect('/game');
         }
         else
-            return redirect('/game');
+            return view('levels.wrong');
     }
 
     
