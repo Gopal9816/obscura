@@ -19,7 +19,7 @@
                 {{Form::label('college','College')}}
                 {{Form::text('college',$user->college,['class' => 'form-control','placeholder' => 'College',])}}
         </div>
-        {{Form::submit('Submit',['class' => 'btn btn-success'])}}
+        {{Form::submit('Submit',['class' => 'btn btn-success editb'])}}
     {!! Form::close() !!}
     </div>
 </div>

@@ -232,6 +232,40 @@ body{
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
 }
+#lefth{
+    transform: scale(-1,1);
+  }
+
+  #home{
+    margin:11px;
+}
+#other{
+    margin:11px;
+}
+.leaderboard{
+  background: rgba(0, 0, 0, 0.8);
+  margin:10px;
+  border-radius: 5px;
+}
+.form-control{
+  background-color: rgba(0,0,0,0.8);
+  border-width:1px;
+  border-color: black; 
+}
+.form-group{
+  color:white;
+}
+a{
+  color:white;
+}
+.lev2{
+  background-color:rgba(0,0,0,0.8);
+ 
+  padding: 20px;
+  margin:auto;
+   box-shadow: 0 3px 28px 0 rgb(0,0,0), 0 0px 55px 0 rgba(0, 0, 0, 0.21);
+}
+
 @media (max-width: 780px) {
     .page-header h1{
   font-size: 30px;
@@ -244,19 +278,13 @@ body{
 .jumbotron{
   width:75%;
 }
-
-
-  }
-  #lefth{
-    transform: scale(-1,1);
-  }
-
-  #home{
-    margin:11px;
-}
-#other{
-    margin:11px;
-}
 .leaderboard{
-  background: rgba(0, 0, 0, 0.8);
+  margin:0px;
+}
+.lev2{
+  
+}
+audio{
+  width:200px;
+}
 }
