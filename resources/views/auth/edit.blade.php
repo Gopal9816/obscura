@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class=row>
+<div class="row editcont" >
     <div class="col-md-10 col-xs-12 col-md-offset-1 ">
 
     {!! Form::open(['action' => ['HomeController@update',$user->id], 'method' => 'POST']) !!}

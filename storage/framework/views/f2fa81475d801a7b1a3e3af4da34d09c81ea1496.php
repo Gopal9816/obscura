@@ -1,6 +1,6 @@
 <?php $__env->startSection('content'); ?>
 
-<div class=row>
+<div class="row editcont" >
     <div class="col-md-10 col-xs-12 col-md-offset-1 ">
 
     <?php echo Form::open(['action' => ['HomeController@update',$user->id], 'method' => 'POST']); ?>
