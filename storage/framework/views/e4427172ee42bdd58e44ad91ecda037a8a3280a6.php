@@ -1,7 +1,7 @@
-@extends('layouts.app')
 
-@section('content')
-<link href="{{ asset('css/rep.css') }}" rel="stylesheet">
+
+<?php $__env->startSection('content'); ?>
+<link href="<?php echo e(asset('css/rep.css')); ?>" rel="stylesheet">
 <div class ="row rym animated fadeIn">
     
     <div class="row" style="margin-top:20px;">
@@ -16,16 +16,23 @@
    
     <br><br>
     <div class="col-md-6 col-md-offset-3" style="padding-bottom: 20px;">        
-            {!! Form::open(['action' => 'GameController@answer', 'method' => 'POST']) !!}
+            <?php echo Form::open(['action' => 'GameController@answer', 'method' => 'POST']); ?>
+
                 <div class="form-group" align="center">
-                    {{Form::label('answer','Answer')}}
-                    {{Form::text('answer','',['class' => 'form-control','placeholder' => 'Your Answer'])}}
+                    <?php echo e(Form::label('answer','Answer')); ?>
+
+                    <?php echo e(Form::text('answer','',['class' => 'form-control','placeholder' => 'Your Answer'])); ?>
+
                 </div>
-            {{Form::submit('Submit',['class' => 'btn btn-success editb'])}}
-        {!! Form::close() !!}
+            <?php echo e(Form::submit('Submit',['class' => 'btn btn-success editb'])); ?>
+
+        <?php echo Form::close(); ?>
+
     </div>
 </div>
 
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -28,8 +28,8 @@ body{
 	.lefth{
 		height:400px;
 		width:400px;
-		float: bottom;
-		margin-bottom:-100px;
+		margin-bottom: -200px;
+
 	}
 	.text-center{
 
@@ -47,7 +47,7 @@ body{
 		height:400px;
 		width:400px;
 		float: bottom;
-		margin-bottom:-1800px;
+		margin-bottom:-1700px;
 	}
 	.text-center{
 
@@ -59,7 +59,7 @@ body{
 		height:200px;
 		width:200px;
 		float: bottom;
-		margin-bottom:-1400px;
+		margin-bottom:-1300px;
 	}
 	.text-center{
 
@@ -70,7 +70,7 @@ body{
 	.lefth{
 		height:130px;
 		width:130px;
-		margin-bottom: -770px;
+		margin-bottom: -670px;
 		float: bottom;
 	}
 	.text-center{
@@ -84,7 +84,7 @@ body{
 	.lefth{
 		height:130px;
 		width:130px;
-		margin-bottom: -760px;
+		margin-bottom: -660px;
 		float: bottom;
 	}
 	.text-center{

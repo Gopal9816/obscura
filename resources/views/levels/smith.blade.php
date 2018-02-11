@@ -4,9 +4,9 @@
 <link href="{{ asset('css/rep.css') }}" rel="stylesheet">
 <div class ="row rym animated fadeIn">
     
-    <div class="row">
-        <img src="../img/goibniu.png" style="z-index: 4;height:60vh;width:75%">
-      </div>
+    
+        <img src="../img/goibniu.png" style="z-index: 4;height:60vh;width:75%; margin-top:20px;">
+    
     <br>
    
     <br><br>

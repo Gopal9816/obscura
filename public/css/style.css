@@ -157,7 +157,16 @@ body{
 .navbar-toggle : active{
   background-color: rgba(255,255,255,0.2);
 }
+.rym{
+ background-color: rgba(0,0,0,0.8);
+  color:white;
+  margin-top:100px;
+  box-shadow: 0 3px 28px 0 rgb(0,0,0), 0 0px 55px 0 rgba(0, 0, 0, 0.21);
+}
+#heading{
+  color:rgba(255,255,255,0.8);
 
+}
 
 @keyframes pop-in {
   0% {
