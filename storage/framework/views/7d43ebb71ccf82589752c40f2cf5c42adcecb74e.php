@@ -1,14 +1,15 @@
 <?php $__env->startSection('content'); ?>
-
+<link href="<?php echo e(asset('css/lev2.css')); ?>" rel="stylesheet">
+<div class="row  lev2">
 
 <div class="col-md-6 col-md-offset-3" align="center">
     <audio controls>
         <source src="<?php echo e(asset('audio/level2.wav')); ?>" type="audio/wav">
 
     </audio>
-</div>
+<!--</div>
 <br><br>
-<div class="col-md-6 col-md-offset-3">        
+<div class="col-md-6 col-md-offset-3 lev2" align="center">  -->      
     <?php echo Form::open(['action' => 'GameController@answer', 'method' => 'POST']); ?>
 
         <div class="form-group" align="center">
@@ -17,10 +18,11 @@
             <?php echo e(Form::text('answer','',['class' => 'form-control','placeholder' => 'Your Answer'])); ?>
 
         </div>
-    <?php echo e(Form::submit('Submit',['class' => 'btn btn-success'])); ?>
+    <?php echo e(Form::submit('Submit',['class' => 'btn btn-success editb'])); ?>
 
 <?php echo Form::close(); ?>
 
+</div>
 </div>
 
 
