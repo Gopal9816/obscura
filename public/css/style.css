@@ -129,16 +129,11 @@ header:after {
 
 }
 body{
-  background-image: url('../img/b1.jpg');
+  background-image: url('../img/first.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
-  background-image: url('../img/b1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:100vh;
-  color: #ffffff;
-}
+  }
 .navbar{
   background-color: rgba(0,0,0,0.9);
   box-shadow: 0 3px 28px 0 rgb(0,0,0), 0 0px 55px 0 rgba(0, 0, 0, 0.21);
@@ -172,15 +167,31 @@ body{
     transform: rotateZ(-4deg);
   }
 }
+.jumbotron{
+  background-color: rgba(0,0,0,0.6);
+  border-radius:0px;
+  width:50%;
+  margin: auto;
+}
+#obtitle{
+  font-family: 'dae';
+  color:white;
+  opacity:0.5;
+}
 
 #google{
-  background-color:  #DB4437;
+  background-color:  rgba(219, 68, 55,0.7);
   font-size: 20px;
+  color:(255,255,255,0.5);
+  font-family: arial;
 }
 
 #facebook{
-  background-color:  	#3b5998;
+  background-color:  rgba(59, 89, 152,0.7);
   font-size: 20px;
+  color:(255,255,255,0.5);
+  font-family: arial;
+
   
 }
 
@@ -197,6 +208,11 @@ body{
   font-family: 'dae';
   src: url('../fonts/DAEMONES.TTF');
   src: local('dae'), url('../fonts/DAEMONES.TTF') format('truetype');
+}
+@font-face {
+  font-family: 'alice';
+  src: url('../fonts/Alice_in_Wonderland_3.ttf');
+  src: local('dae'), url('../fonts/Alice_in_Wonderland_3.ttf') format('truetype');
 }
 .page-header h1{
   font-family: 'dae';
@@ -224,6 +240,9 @@ body{
 @media (max-width: 480px) {
 .page-header h1{
   font-size: 25px;
+}
+.jumbotron{
+  width:75%;
 }
 
 

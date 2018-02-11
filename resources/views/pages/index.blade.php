@@ -2,9 +2,9 @@
 
 @section('content')
 <div class="container-fluid">
-    <div class="jumbotron text-center transparent">
-            <h1 align="center">OBSCURA</h1>
-            <br><br><br>
+    <div class="jumbotron text-center">
+            <h1 align="center" id="obtitle">Obscura</h1>
+            <br>
             @guest
             <p>
                 <a href="/login/google" style="color:white;"><button id="google" class=btn><i class="fa fa-google">  Google</i></button></a>
