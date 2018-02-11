@@ -20,7 +20,7 @@
            
             <div class="form-group">
                 
-                {{Form::radio('college','home',false, ['id' => 'home' , 'onchange' => 'hideother()','required'])}}Home <br>
+                {{Form::radio('college','home',false, ['id' => 'home' , 'onchange' => 'hideother()','required'])}}College of Engineering Trivandrum<br>
                 {{Form::radio('college','others',false, ['id' => 'other' , 'onchange' => 'displayother()','required'])}}Others
             </div>
             <div class="form-group">
