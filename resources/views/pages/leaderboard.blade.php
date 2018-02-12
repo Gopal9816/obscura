@@ -7,7 +7,7 @@
     <li><a data-toggle="tab" href="#away">Away</a></li>
 </ul>
 <div class="tab-content">
-    <div class="tab-pane fade in active" id="home">
+    <div class="tab-pane fade in" id="home">
     <table class="table table-dark">
         <thead>
             <tr>
@@ -33,7 +33,7 @@
         </tbody>
     </table>
     </div>
-    <div id="away" class="tab-pane fade">
+    <div id="away" class="tab-pane fade active">
             <table class="table table-dark">
                     <thead>
                         <tr>
