@@ -27,7 +27,7 @@ class GameController extends Controller
             5 => 'levels.jabberwocky',
             6 => 'levels.level2',
             7 => 'levels.fall',
-            8 => 'levels.teaser',
+            8 => 'levels.staytuned',
 
         );
 

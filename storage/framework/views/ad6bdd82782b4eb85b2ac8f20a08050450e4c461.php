@@ -1,17 +1,11 @@
 <?php $__env->startSection('content'); ?>
+
 <link href="<?php echo e(asset('css/rep.css')); ?>" rel="stylesheet">
+<link href="<?php echo e(asset('css/lev3.css')); ?>" rel="stylesheet">
 <div class ="row rym animated fadeIn">
     
-    <div class="row" style="margin-top:20px;">
-        <div class="col-md-6 col-xs-12"> <img src="../img/kudu1.jpg" style="z-index: 4;height:40vh;width:75%"></div>   
-        <div class="col-md-6 col-xs-12"> <img src="../img/kudu2.jpg" style="z-index: 4;height:40vh;width:75%"></div> 
-      </div>
-    <br>
-      <div class="row">
-        <div class="col-md-6 col-xs-12"> <img src="../img/kudu3.jpg" style="z-index: 4;height:40vh;width:75%"></div>   
-        <div class="col-md-6 col-xs-12"> <img src="../img/kudu4.png" style="z-index: 4;height:40vh;width:75%"></div> 
-      </div>  
    
+    <img src="../img/level8.jpg" class="img-responsive" style="z-index: 4; height:75vh;width:75vh">
     <br><br>
     <div class="col-md-6 col-md-offset-3" style="padding-bottom: 20px;">        
             <?php echo Form::open(['action' => 'GameController@answer', 'method' => 'POST']); ?>
