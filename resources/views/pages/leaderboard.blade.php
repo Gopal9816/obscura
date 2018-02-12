@@ -15,7 +15,6 @@
                 <th scope="col">Name</th>
                 <th scope="col">College</th>
                 <th scope="col">Level</th>
-                <th scope="col">Points</th>
             </tr>
         </thead>
         <tbody>
@@ -26,7 +25,6 @@
                         <td>{{ $user->name }}</td>
                         <td>{{ $user->college }}</td>
                         <td>{{ $user->level }}</td>
-                        <td>{{ $user->points }}</td>
                     </tr>
                 @endforeach
             @endif
@@ -41,7 +39,6 @@
                             <th scope="col">Name</th>
                             <th scope="col">College</th>
                             <th scope="col">Level</th>
-                            <th scope="col">Points</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -52,7 +49,6 @@
                                     <td>{{ $user->name }}</td>
                                     <td>{{ $user->college }}</td>
                                     <td>{{ $user->level }}</td>
-                                    <td>{{ $user->points }}</td>
                                 </tr>
                             @endforeach
                         @endif

@@ -13,7 +13,6 @@
                 <th scope="col">Name</th>
                 <th scope="col">College</th>
                 <th scope="col">Level</th>
-                <th scope="col">Points</th>
             </tr>
         </thead>
         <tbody>
@@ -24,7 +23,6 @@
                         <td><?php echo e($user->name); ?></td>
                         <td><?php echo e($user->college); ?></td>
                         <td><?php echo e($user->level); ?></td>
-                        <td><?php echo e($user->points); ?></td>
                     </tr>
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             <?php endif; ?>
@@ -39,7 +37,6 @@
                             <th scope="col">Name</th>
                             <th scope="col">College</th>
                             <th scope="col">Level</th>
-                            <th scope="col">Points</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -50,7 +47,6 @@
                                     <td><?php echo e($user->name); ?></td>
                                     <td><?php echo e($user->college); ?></td>
                                     <td><?php echo e($user->level); ?></td>
-                                    <td><?php echo e($user->points); ?></td>
                                 </tr>
                             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                         <?php endif; ?>

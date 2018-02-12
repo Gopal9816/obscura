@@ -17,8 +17,8 @@ class PagesController extends Controller
     public function leaderboard()
     {
         # code...
-        $homeusers = User::where('college','=','CET')->orderBy('points','DESC')->orderBy('updated_at','ASC')->get();
-        $awayusers = User::where('college','!=','CET')->orderBy('points','DESC')->orderBy('updated_at','ASC')->get();
+        $homeusers = User::where('college','=','CET')->orderBy('level','DESC')->orderBy('updated_at','ASC')->get();
+        $awayusers = User::where('college','!=','CET')->orderBy('level','DESC')->orderBy('updated_at','ASC')->get();
 
         return view('pages.leaderboard', array('homeusers' => $homeusers,'awayusers' => $awayusers));
     }
