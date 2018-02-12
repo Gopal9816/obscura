@@ -304,6 +304,7 @@ margin:auto;
 .leaderboard{
   margin:0px;
   margin-top:70px;
+  overflow-x:scroll;
 }
 .lev2{
   
