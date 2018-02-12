@@ -31,7 +31,7 @@
         </tbody>
     </table>
     </div>
-    <div id="away" class="tab-pane fade">
+    <div id="away" class="tab-pane fade ">
             <table class="table table-dark">
                     <thead>
                         <tr>

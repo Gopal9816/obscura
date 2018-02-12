@@ -65,7 +65,7 @@ class GameController extends Controller
         $correctAns = $answerList[$level];
         if(stripos($answer,$correctAns) !== false){
             $user->level += 1;
-            $num = User::where('level',$user->level)->count();
+            $num = User::where('level','>',$user->level-1)->count();
             if($num <= 4)
                 $user->points += 500;
             else if($num <= 9)
