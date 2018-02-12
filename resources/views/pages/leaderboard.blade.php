@@ -3,11 +3,11 @@
 @section('content')
 <div class="row leaderboard">
 <ul class="nav nav-tabs">
-    <li><a data-toggle="tab" href="#away">Away</a></li>
     <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#away">Away</a></li>
 </ul>
 <div class="tab-content">
-    <div class="tab-pane fade in" id="home">
+    <div class="tab-pane fade in active" id="home">
     <table class="table table-dark">
         <thead>
             <tr>
@@ -33,7 +33,7 @@
         </tbody>
     </table>
     </div>
-    <div id="away" class="tab-pane fade active">
+    <div id="away" class="tab-pane fade ">
             <table class="table table-dark">
                     <thead>
                         <tr>
