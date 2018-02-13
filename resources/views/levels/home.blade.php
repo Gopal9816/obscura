@@ -4,11 +4,9 @@
 <link href="{{ asset('css/rep.css') }}" rel="stylesheet">
 <div class ="row rym animated fadeIn">
     
-    
-        <img src="../img/jwy.png" style="z-index: 4;height:60vh;width:75%; margin-top:20px;">
-    
+    <h1 id="rhyme">All the work we did to make this look good. I bet it's worth something</h1>
     <br>
-   
+    <div style="display:none;" id="lookie_here"> https://drive.google.com/open?id=1hUtpY4CXUrOrLjmcvWQLEExO4YX4ORaH</div>
     <br><br>
     <div class="col-md-6 col-md-offset-3" style="padding-bottom: 20px;">        
             {!! Form::open(['action' => 'GameController@answer', 'method' => 'POST']) !!}

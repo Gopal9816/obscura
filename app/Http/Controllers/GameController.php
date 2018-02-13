@@ -28,9 +28,10 @@ class GameController extends Controller
             6 => 'levels.level2',
             7 => 'levels.fall',
             8 => 'levels.level8',
-            9 => 'levels.level9',
-            10 => 'levels.fakeend',
-            11 => 'levels.staytuned',
+            9 => 'levels.home',
+            10 => 'levels.teaparty',
+            11=> 'levels.fakeend',
+            12 => 'levels.staytuned',
 
         );
 
@@ -63,9 +64,11 @@ class GameController extends Controller
             5 => 'tumtum',
             6 => 'caucusrace',
             7 => 'alicepleasanceliddell',
-            8 => 'popescu',
-            9 => 'stockport',
-            10 => 'sunshine',
+            8 => 'electrocutioner',
+            9 => 'daresbury',
+            10 => 'johnbonham',
+            11 => 'sunshine',
+            
         );
         $level = $user->level;
         $correctAns = $answerList[$level];
