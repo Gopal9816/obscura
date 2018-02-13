@@ -27,7 +27,8 @@ class GameController extends Controller
             5 => 'levels.jabberwocky',
             6 => 'levels.level2',
             7 => 'levels.fall',
-            8 => 'levels.staytuned',
+            8 => 'levels.level8',
+            9 => 'levels.staytuned'
 
         );
 
@@ -60,6 +61,7 @@ class GameController extends Controller
             5 => 'tumtum',
             6 => 'caucusrace',
             7 => 'alicepleasanceliddell',
+            8 => 'electrocutioner',
         );
         $level = $user->level;
         $correctAns = $answerList[$level];
