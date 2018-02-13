@@ -1,13 +1,13 @@
 <?php $__env->startSection('content'); ?>
 <link href="<?php echo e(asset('css/rep.css')); ?>" rel="stylesheet">
 <link href="<?php echo e(asset('css/lev2.css')); ?>" rel="stylesheet">
-<div class="row  rym">
+<div class="row rym">
     <div class="col-md-6 col-md-offset-3" align="center">
-        <h2>We start fast and then we go Slow<br>And We All end a winner</h2>
+        <h2 style="font-family:'Amatic SC', cursive;">We start fast and then we go Slow<br>And We All end a winner</h2>
     </div>
 <div class="col-md-6 col-md-offset-3" align="center">
     <audio controls>
-        <source src="<?php echo e(asset('audio/Lavender.mp3')); ?>" type="audio/mpeg">
+        <source src="<?php echo e(asset('audio/Lavenderisthenewblack.mp3')); ?>" type="audio/mpeg">
 
     </audio>
 <!--</div>
