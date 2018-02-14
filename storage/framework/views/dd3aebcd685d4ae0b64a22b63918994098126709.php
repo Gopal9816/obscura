@@ -3,7 +3,7 @@
 <link href="<?php echo e(asset('css/lev2.css')); ?>" rel="stylesheet">
 <div class="row rym">
     <div>
-        <h1 class="rhyme">@ptbzxnxrsfgexn</h1>
+        <h1 class="rhyme">@dtynxklrptgbln</h1>
         <div class="col-md-6 col-md-offset-3" style="padding-bottom: 20px;">        
             <?php echo Form::open(['action' => 'GameController@answer', 'method' => 'POST']); ?>
 
