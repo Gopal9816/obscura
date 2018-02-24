@@ -18,6 +18,7 @@ class GameController extends Controller
         $user = Auth::user();
         $level = $user->level;
 
+        // Array of which page is to be displayed for the corresponding level of the user
         $levelsList = array(
             0 => 'levels.blocked',
             1 => 'levels.level1',
@@ -51,12 +52,12 @@ class GameController extends Controller
         return view('levels.wrong');
     }
 
-    public function answer(Request $request)
+    public function answer(Request $request) //Function to check answer
     {
         # code...
         $user = Auth::user();
         $answer = $request->input('answer');
-        $answerList = array(
+        $answerList = array( //Array of answers
             1 => 'wachowski',
             2 => 'syzygy',
             3 => 'smithandbeck',
@@ -75,7 +76,7 @@ class GameController extends Controller
         if(stripos($answer,$correctAns) !== false){
             $user->level += 1;
             $num = User::where('level',$user->level)->count();
-            if($num <= 4)
+            if($num <= 4) // Ignore this portion
                 $user->points += 500;
             else if($num <= 9)
                 $user->points += 300;
@@ -87,7 +88,7 @@ class GameController extends Controller
             return redirect('/game');
         }
         else
-            return view('levels.wrong');
+            return view('levels.wrong'); // view to be shown if answer is wrong
     }
 
     
