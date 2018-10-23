@@ -7,7 +7,23 @@ It is a challenge carefully crafted to find the brightest of people around the w
 Let's see how far you go, for there is no way you'll finish. We look forward to seeing the few people who get the farthest. <br />
 Obscura, the place you'll never wanna leave, you'll never leave. <br />
 Enter at your own risk, there's no getting out. <br />
-Good luck. ;)
+Good luck. ;)<br />
+
+Welcome to the github repo of Obscura 2018. This is where the magic behind Obscura took place. The website has been created usnig the Laravel Framework for PHP.
+
+## Dependencies
+* PHP
+* Composer
+* npm
+
+## Usage
+* clone the repo
+* cd into the root directory
+* run `composer install`
+* run `npm install`
+* modify database credentials in .env
+* run `php artisan key:generate`
+* run `php artisan serve`
 
 ## Screenshots
 
