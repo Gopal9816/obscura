@@ -1,5 +1,5 @@
 # Obscura
-Repo of the online treasure hunt conducted during Dotslash '18
+Repo of the online cryptic easter egg hunt conducted during Dotslash '18
 
 ## Introduction
 Enter the Rabbit hole to the fantastic world of Obscura, a path filled with levels to test your limits. <br />
